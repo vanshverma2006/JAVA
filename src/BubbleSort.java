@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 public class BubbleSort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -18,6 +18,8 @@ public class BubbleSort {
                     array[j]=array[j+1];
                     array[j+1]=temp;
                 }
+                else
+                    continue;
             }
         }
         System.out.print("[");
@@ -29,3 +31,13 @@ public class BubbleSort {
 
     }
 }
+
+
+
+
+
+
+
+
+
+
